@@ -1,0 +1,5 @@
+myPlaces.stream()
+        .filter((p) -> p.startsWith("Nepal"))
+        .map((p) -> p.toUpperCase())
+        .sorted()
+        .forEach((p) -> System.out.println(p));
